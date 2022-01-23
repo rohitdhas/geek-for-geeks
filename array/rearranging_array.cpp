@@ -1,4 +1,4 @@
-// Problem - Rearranging array
+// Problem - Rearranging array (Basic)
 // Link - https://practice.geeksforgeeks.org/problems/rearranging-array1648/0/?category[]=Arrays&category[]=Arrays&page=1&query=category[]Arrayspage1category[]Arrays
 
 #include <bits/stdc++.h>
