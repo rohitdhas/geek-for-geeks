@@ -11,29 +11,21 @@ public:
 	next greatest element */
 	void nextGreatest(int arr[], int n)
 	{
+		int curMax = -1;
 
-		for (int x = 0; x < n; x++)
+		for (int x = n - 1; x >= 0; x--)
 		{
-			int maxIdx = getMax(arr, x + 1, n);
-			arr[x] = arr[maxIdx];
-		}
-		arr[n - 1] = -1;
-	}
-
-	int getMax(int arr[], int startPos, int endPos)
-	{
-		int max = 0;
-		int idx = -1;
-
-		for (int x = startPos; x < endPos; x++)
-		{
-			if (arr[x] > max)
+			if (arr[x] > curMax)
 			{
-				max = arr[x];
-				idx = x;
+				int temp = arr[x];
+				arr[x] = curMax;
+				curMax = temp;
+			}
+			else
+			{
+				arr[x] = curMax;
 			}
 		}
-		return idx;
 	}
 };
 
