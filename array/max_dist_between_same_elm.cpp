@@ -1,5 +1,5 @@
-// Problem - Balanced Array (Basic)
-// Link - https://practice.geeksforgeeks.org/problems/balanced-array07200720/1/?category[]=Arrays&category[]=Arrays&problemStatus=unsolved&difficulty[]=-1&page=1&query=category[]ArraysproblemStatusunsolveddifficulty[]-1page1category[]Arrays#
+// Problem - Max distance between same elements (Easy)
+// Link - https://practice.geeksforgeeks.org/problems/max-distance-between-same-elements/1
 
 #include <bits/stdc++.h>
 using namespace std;
